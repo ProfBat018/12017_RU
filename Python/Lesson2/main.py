@@ -46,3 +46,27 @@
 # </editor-fold>
 
 
+# <editor-fold desc="While loop">
+
+# num = 5
+#
+# while num:
+#     print("Hello")
+#     num += 1
+#     if num % 2 == 0:
+#         print(num)
+#         continue
+#     else:
+#         break
+# print("Finish")
+
+i = 0
+j = 0
+
+while i != 3:
+    while j != 3:
+        print(i, j)
+        j += 1
+    j = 0
+    i += 1
+# </editor-fold>
