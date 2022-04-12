@@ -47,3 +47,21 @@ cars = ["Mercedes-Benz", "Lexus", "Toyota", "Ford", "Chevrolet", "BMW"]
 # cars.pop()
 # print(cars2)
 
+sum = 0
+num = int(input())
+max = num
+min = num
+while True:
+    if num > max:
+        max = num
+    if num < min:
+        min = num
+    if num == 7:
+        break
+    sum += num
+    num = int(input())
+
+
+print(sum)
+print(min)
+print(max)
