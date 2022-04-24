@@ -19,3 +19,5 @@ tmp = {12, -5, 14, 10}
 print(nums)
 print(tmp)
 print(nums.symmetric_difference(tmp))
+
+
