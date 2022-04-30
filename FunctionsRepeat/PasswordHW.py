@@ -112,11 +112,12 @@ components = [lower_letters, upper_letters, digits, symbols]
 
 length = int(input("Enter length of your password"))
 
-for i in range(length):
+for i in range(length - 2):
     template = str()
     for item in result:
-        template += random.choice(components[item - 1])
+        template += random.choice(components[item - random.randint(1, 4)])
     password += random.choice(template)
+password = random.choice(upper_letters) + random.choice(lower_letters) + password
 
 print(password)
 
