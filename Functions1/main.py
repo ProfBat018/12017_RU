@@ -42,10 +42,27 @@
 # foo3(1, 2, 3)
 
 
-def foo4(num1, num3):
-    return num1, num3
+# def foo4(num1, num3):
+#     return num1, num3
+#
+#
+# print(foo4(1, 2))
+#
+# a = list(foo4(1, 2))
 
 
-print(foo4(1, 2))
+def foo(num):
+    pass
 
-a = list(foo4(1, 2))
+
+nums = list()
+while True:
+    num = int(input('Enter new wnumber: '))
+    if not num:
+        break
+    nums.append(num)
+
+foo(nums)
+
+
+nums = [1, 2, 3, 4, 6 ]
