@@ -81,15 +81,57 @@ class Person:
 # p2.say_hello()
 #
 # file.close()
+#
+# import time
+#
+# a = time.gmtime()
+#
+# print(a.tm_year)
+# print(a.tm_mon)
+# print(a.tm_mday)
+# print(a.tm_hour)
+# print(a.tm_min)
+# print(a.tm_sec)
 
-import time
+a = 5
+b = 6
 
-a = time.gmtime()
+print(a + (a < b))
 
-print(a.tm_year)
-print(a.tm_mon)
-print(a.tm_mday)
-print(a.tm_hour)
-print(a.tm_min)
-print(a.tm_sec)
+# a = 5
+#
+# if a:
+#     print(a)
+
+# if a == 4:
+#     print(a)
+# elif a:
+#     print(a)
+# elif a > 0:
+#     print(a)
+
+
+# for i in range(2, 10, 2):
+#     print(i)
+
+# def foo(num1, num2):
+#     return num1 + num2
+#
+#
+# print(foo(1, 2))
+
+def foo(num1=5, num2=6):
+    return num1 + num2
+
+
+print(foo())
+
+
+
+def foo():
+    return 1, 2
+
+
+a = foo()
+print(a)
 
